@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { json } from "stream/consumers";
 
 const UseStateComp = () => {
   const [arr, setArr] = useState<number[]>([]);

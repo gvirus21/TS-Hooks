@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import UseStateComp from '../components/UseStateComp'
+import UseEffectComp from '../components/useEffectComp'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <div>
           <h1 className='text-5xl tracking-wide font-bold'> Typescript hooks </h1>
           <UseStateComp />
+          <UseEffectComp />
         </div>
       </main>
     </div>
