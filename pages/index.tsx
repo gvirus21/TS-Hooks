@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import UseStateComp from '../components/UseStateComp'
-import UseEffectComp from '../components/useEffectComp'
+// import UseStateComp from '../components/UseStateComp'
+// import UseEffectComp from '../components/useEffectComp'
 import styles from '../styles/Home.module.css'
+import UseContextComp from '../components/UseContextComp'
 
 const Home: NextPage = () => {
   return (
@@ -16,8 +17,9 @@ const Home: NextPage = () => {
       <main>
         <div>
           <h1 className='text-5xl tracking-wide font-bold'> Typescript hooks </h1>
-          <UseStateComp />
-          <UseEffectComp />
+          {/* <UseStateComp /> */}
+          {/* <UseEffectComp /> */}
+          <UseContextComp />
         </div>
       </main>
     </div>
